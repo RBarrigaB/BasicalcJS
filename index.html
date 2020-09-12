@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<!-- Encabezado -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora con JavaScript - {desafio} latam_</title>
+		<link type="text/css" href="estilos.css" rel="stylesheet">
+	</head>
+	<!-- Se ejecuta la función que genera las operaciones de la calculadora-->
+	<body onload="init();">
+	<!-- Se generan los botones que reciben los input del usuario al hacer click-->
+	<table class="calculadora">
+		<tr>
+			<td colspan="4"><span id="resultado"></span></td>
+		</tr>
+		<tr>
+			<td><button id="siete" class="color">7</button></td>
+			<td><button id="ocho" class="color">8</button></td>
+			<td><button id="nueve" class="color">9</button></td>
+			<td><button id="division" class="color">/</button></td>
+		</tr>
+
+		<tr>
+			<td><button id="cuatro" class="color">4</button></td>
+			<td><button id="cinco" class="color">5</button></td>
+			<td><button id="seis" class="color">6</button></td>
+			<td><button id="multiplicacion" class="color">*</button></td>
+		</tr>
+
+		<tr>
+			<td><button id="uno" class="color">1</button></td>
+			<td><button id="dos" class="color">2</button></td>
+			<td><button id="tres" class="color">3</button></td>
+			<td><button id="resta" class="color">-</button></td>
+		</tr>
+
+		<tr>
+			<td><button id="igual" class="color">=</button></td>
+			<td><button id="reset" class="color">C</button></td>
+			<td><button id="cero" class="color">0</button></td>
+			<td><button id="suma" class="color">+</button></td>
+		</tr>
+		
+	</table>
+
+	<script type="text/JavaScript" src="calculadora.js"></script>
+	</body>
+</html>
